@@ -1,10 +1,10 @@
 # WordPress development environment
 
-In this page we are going to set up a development environment for WordPress using a Docker.
+In this page we are going to set up a development environment for WordPress using Docker.
 
 ## Dependencies
 
-Docker [Installation](https://docs.docker.com/engine/install/)
+Docker [Installation](../../docker/)
 
 ## Starting a new WordPress project with `docker compose`
 
@@ -33,6 +33,3 @@ Docker [Installation](https://docs.docker.com/engine/install/)
 4. Open the local WordPress site
 
    [http://localhost:8080](http://localhost:8080)
-
-
-## Docker Desktop
