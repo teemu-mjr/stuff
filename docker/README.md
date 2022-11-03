@@ -22,12 +22,6 @@ Docker Desktop uses the docker engine in the back-end but includes a GUI
 
 ## Test that docker is working after installation
 
-Linux/Mac
-```sh
-sudo docker run --rm hello-world
-```
-
-Windows
 ```sh
 docker run --rm hello-world
 ```
@@ -66,25 +60,25 @@ All Docker Engine command will work on Docker Desktop, but you can use the inclu
 Show all running containers
 
 ```sh
-sudo docker ps
+docker ps
 ```
 
 Show all containers
 
 ```sh
-sudo docker ps -a
+docker ps -a
 ```
 
 Stop a container
 
 ```sh
-sudo docker stop <container-id/container-name>
+docker stop <container-id/container-name>
 ```
 
 Remove a container
 
 ```sh
-sudo docker rm <container-id/container-name>
+docker rm <container-id/container-name>
 ```
 
 ### Extra
@@ -92,11 +86,11 @@ sudo docker rm <container-id/container-name>
 Stop all running container
 
 ```sh
-sudo docker kill $(sudo docker ps -q)
+docker kill $(docker ps -q)
 ```
 
 Remove all containers
 
 ```sh
-sudo docker rm $(sudo docker ps -a -q)
+docker rm $(docker ps -a -q)
 ```

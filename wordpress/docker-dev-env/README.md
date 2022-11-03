@@ -18,14 +18,6 @@ Docker [Installation](../../docker/)
 
 3. Start the docker containers
 
-   Linux/Mac
-
-   ```sh
-   sudo docker compose up -d
-   ```
-
-   Window
-
    ```sh
    docker compose up -d
    ```

@@ -6,7 +6,7 @@ In this page we will start a MongoDB instance inside of Docker
 
 Docker [Installation](../../docker/)
 
-## Starting (remove container after stopping it)
+## Starting
 
 Will be automatically removed after stopping
 
