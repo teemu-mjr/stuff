@@ -56,3 +56,47 @@ Share images, automate workflows, and more with a free Docker ID:
 For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
+
+## Interacting with the containers
+
+All Docker Engine command will work on Docker Desktop, but you can use the included GUI application for the same results
+
+### Basic commands
+
+Show all running containers
+
+```sh
+sudo docker ps
+```
+
+Show all containers
+
+```sh
+sudo docker ps -a
+```
+
+Stop a container
+
+```sh
+sudo docker stop <container-id/container-name>
+```
+
+Remove a container
+
+```sh
+sudo docker rm <container-id/container-name>
+```
+
+### Extra
+
+Stop all running container
+
+```sh
+sudo docker kill $(sudo docker ps -q)
+```
+
+Remove all containers
+
+```sh
+sudo docker rm $(sudo docker ps -a -q)
+```
